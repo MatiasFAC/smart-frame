@@ -1,0 +1,7 @@
+{
+    "instructions": [
+        "htpasswd -c ./front-frame/htpasswd admin"
+        "docker network create prod_network",
+        "docker compose up -d"
+    ]
+}
